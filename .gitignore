@@ -3,9 +3,9 @@
 *.flac
 
 # Large models and checkpoints
-*.pt
-*.onnx
-*.bin
+/EGTTS-V0.1/*.pt
+/EGTTS-V0.1/*.onnx
+/EGTTS-V0.1/*.bin
 
 # Cache folders
 __pycache__/
