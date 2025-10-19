@@ -1,5 +1,14 @@
-*.pth
-egtts_output.wav
-10_0_cropped.flac
-output.wav
-rec_1.wav
+# Ignore all audio outputs
+*.wav
+*.flac
+
+# Large models and checkpoints
+*.pt
+*.onnx
+*.bin
+
+# Cache folders
+__pycache__/
+*.log
+.cache/
+checkpoints/
