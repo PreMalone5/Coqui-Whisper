@@ -1,14 +1,3 @@
-# Ignore all audio outputs
-*.wav
-*.flac
-
-# Large models and checkpoints
 /EGTTS-V0.1/model.pth
-/EGTTS-V0.1/*.onnx
-/EGTTS-V0.1/*.bin
 
-# Cache folders
-__pycache__/
-*.log
-.cache/
-checkpoints/
+
