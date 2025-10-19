@@ -3,7 +3,7 @@
 *.flac
 
 # Large models and checkpoints
-/EGTTS-V0.1/*.pt
+/EGTTS-V0.1/*.pth
 /EGTTS-V0.1/*.onnx
 /EGTTS-V0.1/*.bin
 
