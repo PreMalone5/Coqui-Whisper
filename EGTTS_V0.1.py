@@ -17,7 +17,7 @@ OUTPUT_WAV = "egtss_output.wav"
 
 # Decoding: slightly tighter (less work, steadier prosody)
 DECODE_KW = dict(
-    temperature=0.5,
+    temperature=0.65,
     repetition_penalty=3.0,
     top_k=30,
     top_p=0.8
