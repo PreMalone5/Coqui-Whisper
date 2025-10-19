@@ -44,3 +44,4 @@ checkpoints/
 # =======================================
 .DS_Store
 Thumbs.db
+EGTTS-V0.1/model.pth
