@@ -1,3 +1,46 @@
-/EGTTS-V0.1/model.pth
+# =======================================
+# General Python ignores
+# =======================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.bak
+*.swp
 
+# =======================================
+# Virtual environment
+# =======================================
+.venv/
+env/
+venv/
 
+# =======================================
+# Audio files in project root
+# =======================================
+# Ignore only .wav and .flac files in the main directory
+/*.wav
+/*.flac
+
+# =======================================
+# Model checkpoints (EGTTS-V0.1)
+# =======================================
+EGTTS-V0.1/*.pth
+
+# =======================================
+# Cache / metadata
+# =======================================
+.cache/
+checkpoints/
+*.pt
+*.onnx
+*.bin
+*.jsonl
+
+# =======================================
+# OS-specific
+# =======================================
+.DS_Store
+Thumbs.db
