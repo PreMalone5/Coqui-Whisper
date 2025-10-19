@@ -27,7 +27,10 @@ venv/
 # =======================================
 # Model checkpoints (EGTTS-V0.1)
 # =======================================
+EGTTS-V0.1/model.pth
 EGTTS-V0.1/*.pth
+EGTTS-V0.1/*.pt
+
 
 # =======================================
 # Cache / metadata
@@ -44,4 +47,5 @@ checkpoints/
 # =======================================
 .DS_Store
 Thumbs.db
+EGTTS-V0.1/model.pth
 EGTTS-V0.1/model.pth
