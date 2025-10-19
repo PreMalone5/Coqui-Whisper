@@ -1,1 +1,5 @@
 *.pth
+egtts_output.wav
+10_0_cropped.flac
+output.wav
+rec_1.wav
